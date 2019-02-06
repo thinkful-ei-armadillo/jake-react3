@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import HelloWorld from "./HelloWorld";
 import Bomb from "./Bomb";
 import RouletteGun from "./RouletteGun"
+import Accordion from "./Accordion"
 
 class App extends Component {
   render() {
@@ -15,6 +16,9 @@ class App extends Component {
       </div>
       <div className="RouletteGun">
       <RouletteGun />
+      </div>
+      <div className="Accordion">
+      <Accordion />
       </div>
       </div>
     );
