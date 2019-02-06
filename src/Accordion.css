@@ -1,0 +1,25 @@
+.Accordion{
+  list-style-type: none;
+  display: inline-flex;
+}
+
+li{
+    width: 100px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
+
+.Accordion button{
+  
+  width: 200px;
+}
+
+.Accordion p{
+  
+  padding: 10px;
+  width: 100px;
+  border-radius: 13px;
+  background: rgba(170, 168, 168, 0.61);
+  margin-left: 35px;
+}

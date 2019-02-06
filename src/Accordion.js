@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Accordion.css'
 
 export default class Accorion extends Component {
   
@@ -32,7 +33,7 @@ export default class Accorion extends Component {
     return(
       <li className = "Item" key={index}>
       <button onClick={() => this.handleLastClicked(index)}>{section.title}</button>
-      {(lastClickedIndex === index) && section.content}
+      {(lastClickedIndex === index) && <p>{section.content}</p>}
       </li>
     )
   }
